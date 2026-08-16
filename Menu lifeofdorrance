@@ -1,0 +1,120 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Restaurant & Club</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 30px;
+      background: linear-gradient(#0009, #000b),
+                  url("https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1200&q=80")
+                  center/cover;
+    }
+
+    .hero h1 {
+      font-size: 45px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #ddd;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      background: #d4af37;
+      color: #111;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      color: #d4af37;
+      margin-bottom: 15px;
+    }
+
+    .menu-box {
+      max-width: 500px;
+      margin: 25px auto;
+      padding: 25px;
+      background: #1d1d1d;
+      border-radius: 15px;
+    }
+
+    .menu-box p {
+      margin: 12px 0;
+      color: #ddd;
+    }
+
+    footer {
+      padding: 25px;
+      text-align: center;
+      background: #080808;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="hero">
+      <h1>MY RESTAURANT & CLUB</h1>
+      <p>Good Food • Great Music • Amazing Nights</p>
+      <a class="btn" href="menu.html">View Menu</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Welcome</h2>
+    <p>Experience delicious food, drinks and unforgettable nights.</p>
+  </section>
+
+  <section>
+    <h2>Our Menu</h2>
+
+    <div class="menu-box">
+      <p>🍕 Pizza — ₹299</p>
+      <p>🍔 Burger — ₹199</p>
+      <p>🍝 Pasta — ₹249</p>
+      <p>🍹 Mocktail — ₹149</p>
+    </div>
+
+    <a class="btn" href="menu.html">Open Full Menu</a>
+  </section>
+
+  <footer>
+    © 2026 My Restaurant & Club
+  </footer>
+
+</body>
+</html>
