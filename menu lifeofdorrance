@@ -1,0 +1,157 @@
+menu.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Menu</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+      padding-bottom: 30px;
+    }
+
+    header {
+      text-align: center;
+      padding: 35px 20px;
+      background: #080808;
+      border-bottom: 1px solid #333;
+    }
+
+    header h1 {
+      color: #d4af37;
+      font-size: 34px;
+    }
+
+    header p {
+      color: #aaa;
+      margin-top: 8px;
+    }
+
+    .category {
+      max-width: 600px;
+      margin: 35px auto;
+      padding: 0 18px;
+    }
+
+    .category h2 {
+      color: #d4af37;
+      border-bottom: 1px solid #555;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+    }
+
+    .item {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+      padding: 16px 0;
+      border-bottom: 1px solid #292929;
+    }
+
+    .item h3 {
+      font-size: 17px;
+      margin-bottom: 5px;
+    }
+
+    .item p {
+      color: #999;
+      font-size: 13px;
+    }
+
+    .price {
+      color: #d4af37;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+    footer {
+      text-align: center;
+      color: #777;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>OUR MENU</h1>
+    <p>Restaurant & Club</p>
+  </header>
+
+  <div class="category">
+    <h2>🍽️ Starters</h2>
+
+    <div class="item">
+      <div>
+        <h3>Chicken Tikka</h3>
+        <p>Juicy grilled chicken with special spices</p>
+      </div>
+      <div class="price">₹299</div>
+    </div>
+
+    <div class="item">
+      <div>
+        <h3>Paneer Tikka</h3>
+        <p>Grilled paneer with Indian spices</p>
+      </div>
+      <div class="price">₹249</div>
+    </div>
+  </div>
+
+  <div class="category">
+    <h2>🍕 Main Course</h2>
+
+    <div class="item">
+      <div>
+        <h3>Classic Pizza</h3>
+        <p>Fresh cheese and delicious toppings</p>
+      </div>
+      <div class="price">₹299</div>
+    </div>
+
+    <div class="item">
+      <div>
+        <h3>Special Burger</h3>
+        <p>House special crispy burger</p>
+      </div>
+      <div class="price">₹199</div>
+    </div>
+  </div>
+
+  <div class="category">
+    <h2>🍹 Drinks</h2>
+
+    <div class="item">
+      <div>
+        <h3>Virgin Mojito</h3>
+        <p>Refreshing mint and lime drink</p>
+      </div>
+      <div class="price">₹149</div>
+    </div>
+
+    <div class="item">
+      <div>
+        <h3>Blue Lagoon</h3>
+        <p>Refreshing blue citrus mocktail</p>
+      </div>
+      <div class="price">₹169</div>
+    </div>
+  </div>
+
+  <footer>
+    © 2026 Restaurant & Club
+  </footer>
+
+</body>
+</html>
